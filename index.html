@@ -38,15 +38,15 @@
 
 <body class="bg-vdblue h-screen w-screen flex justify-center items-center font-outfit">
 
-  <div class="bg-vdblue2 text-white rounded-xl flex flex-col space-y-5 p-6 max-w-xs">
+  <div class="bg-vdblue2 text-white rounded-xl flex flex-col space-y-4 p-6 max-w-xs">
 
-    <div class="">
-      <img src="./images/image-equilibrium.jpg">
+    <div>
+      <img src="./images/image-equilibrium.jpg" class="rounded-lg">
 
     </div>
 
-    <div class="text-xl text-white font-semibold">
-      <p>Equilibrium #3429</p>
+    <div class="text-xl text-white font-semibold hover:text-cyan cursor-pointer">
+      <a>Equilibrium #3429</a>
 
     </div>
 
@@ -55,15 +55,27 @@
 
     </div>
 
-    <div class="flex space-x-2">
-      <img src="./images/icon-ethereum.svg">
-      <p class="text-cyan"> 0.041 ETH </p>
-      <img src="./images/icon-clock.svg">
-      <p class="text-sblue"> 3 days left </p>
+    <div class="flex justify-between items-center text-sm">
+      <div class="flex items-center space-x-2">
+        <img src="./images/icon-ethereum.svg">
+        <p class="text-cyan"> 0.041 ETH </p>
+      </div>
 
+      <div class="flex items-center space-x-2">
+        <img src="./images/icon-clock.svg">
+        <p class="text-sblue"> 3 days left </p>
+      </div>
     </div>
 
-    <p>Creation of Lloyd Buckle</p>
+    <div class="border-b border-sblue/25"></div>
+
+    <div class="flex items-center space-x-2">
+      <img class="h-7" src="./images/image-avatar.png">
+      <p class="text-sblue">Creation of
+        <a class="text-white hover:text-cyan cursor-pointer">Lloyd Buckle</a>
+      </p>
+    </div>
+
   </div>
 
 </body>
