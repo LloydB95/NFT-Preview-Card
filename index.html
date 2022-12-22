@@ -15,34 +15,56 @@
       theme: {
         extend: {
           colors: {
-            'Soft blue': 'hsl(215, 51%, 70%)',
-            'Cyan': 'hsl(178, 100%, 50%)',
-            'cream': 'hsl(30, 38%, 92%)',
-            'vdblue': 'hsl(212, 21%, 14%)',
-            'dgblue': 'hsl(228, 12%, 48%)',
+            'sblue': 'hsl(215, 51%, 70%)',
+            'cyan': 'hsl(178, 100%, 50%)',
+            'vdblue': 'hsl(217, 54%, 11%)',
+            'vdblue2': 'hsl(216, 50%, 16%)',
+            'vdblue3': 'hsl(215, 32%, 27%)',
             'white': 'hsl(0, 0%, 100%)',
           },
           fontFamily: {
-            '': [''],
-            '': [''],
+            'outfit': ['Outfit'],
           }
         }
       }
     }
   </script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
 </head>
 
-<body>
+<body class="bg-vdblue h-screen w-screen flex justify-center items-center font-outfit">
 
-  Equilibrium #3429
+  <div class="bg-vdblue2 text-white rounded-xl flex flex-col space-y-5 p-6 max-w-xs">
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="">
+      <img src="./images/image-equilibrium.jpg">
 
-  0.041 ETH
-  3 days left
+    </div>
 
-  Creation of Jules Wyvern
+    <div class="text-xl text-white font-semibold">
+      <p>Equilibrium #3429</p>
+
+    </div>
+
+    <div class="font-normal text-sblue">
+      <p>Our Equilibrium collection promotes balance and calm.</p>
+
+    </div>
+
+    <div class="flex space-x-2">
+      <img src="./images/icon-ethereum.svg">
+      <p class="text-cyan"> 0.041 ETH </p>
+      <img src="./images/icon-clock.svg">
+      <p class="text-sblue"> 3 days left </p>
+
+    </div>
+
+    <p>Creation of Lloyd Buckle</p>
+  </div>
 
 </body>
 
